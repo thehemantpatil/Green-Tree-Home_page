@@ -740,7 +740,7 @@ input:focus {
     .take_action_today_main {
         flex-direction: row;
         padding: 0px 64px 150px;
-        background-image: url('images_tablet/Did\ you\ know\ background@2x.png');
+        background-image: url('images_tablet/Did you know background@2x.png');
         background-size: cover;
     }
     .take_action_whiteboard {
@@ -1203,7 +1203,7 @@ input:focus {
     .take_action_today_main {
         flex-direction: row;
         padding: 32px 100px 75px;
-        background-image: url('images_desktop/Did\ you\ know\ background@2x.png');
+        background-image: url('images_desktop/Did you know background@2x.png');
     }
     .take_action_whiteboard {
         padding: 0 64px;
@@ -1472,7 +1472,7 @@ input:focus {
         background-image: url('images_desktop/tree-planting-1@2x.png');
     }
     .take_action_today_main {
-        background-image: url('images_desktop/Did\ you\ know\ background@2x.png');
+        background-image: url('images_desktop/Did you know background@2x.png');
         padding-bottom: 250px;
     }
     .take_action_whiteboard {
