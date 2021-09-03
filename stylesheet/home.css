@@ -52,7 +52,7 @@ body {
 }
 
 .background_img_1 {
-    background-image: url('images_mob/annie-spratt-135307-unsplash@2x.png');
+    background-image: url('../images_mob/annie-spratt-135307-unsplash@2x.png');
     background-color: #354463;
     padding: 32px;
     background-repeat: no-repeat;
@@ -184,7 +184,7 @@ body {
 }
 
 .what_we_do_image {
-    background-image: url('images_mob/tree-planting-1@2x.png');
+    background-image: url('../images_mob/tree-planting-1@2x.png');
     background-repeat: no-repeat;
     background-size: cover;
     padding: 30%;
@@ -194,11 +194,11 @@ body {
 }
 
 .what_we_do_image_1 {
-    background-image: url('images_mob/advocacy@2x.png');
+    background-image: url('../images_mob/advocacy@2x.png');
 }
 
 .what_we_do_image_2 {
-    background-image: url('images_mob/education-training@2x.png');
+    background-image: url('../images_mob/education-training@2x.png');
 }
 
 .what_we_do_imghead {
@@ -237,7 +237,7 @@ body {
 }
 
 .take_action_today_main {
-    background-image: url('images_mob/Did you know background.png');
+    background-image: url('../images_mob/Did you know background.png');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -341,7 +341,7 @@ img {
 }
 
 .stories_back {
-    background: transparent url('images_mob/lady-baby@2x.png') 0% 0% no-repeat padding-box;
+    background: transparent url('../images_mob/lady-baby@2x.png') 0% 0% no-repeat padding-box;
     width: 100%;
     height: 312px;
 }
@@ -591,7 +591,7 @@ input:focus {
 
 @media all and (max-width: 1024px) and (min-width: 722px) {
     .background_img_1 {
-        background-image: url('images_tablet/annie-spratt-135307-unsplash@2x.png');
+        background-image: url('../images_tablet/annie-spratt-135307-unsplash@2x.png');
     }
 }
 
@@ -736,7 +736,7 @@ input:focus {
     .take_action_today_main {
         flex-direction: row;
         padding: 0px 64px 150px;
-        background-image: url('images_tablet/Did you know background@2x.png');
+        background-image: url('../images_tablet/Did you know background@2x.png');
         background-size: cover;
     }
     .take_action_whiteboard {
@@ -774,7 +774,7 @@ input:focus {
     .stories_back {
         width: 60%;
         margin-top: 30px;
-        background-image: url('images_tablet/lady-baby@2x.png');
+        background-image: url('../images_tablet/lady-baby@2x.png');
         background-size: cover;
         align-self: flex-start;
     }
@@ -1079,7 +1079,7 @@ input:focus {
         padding-right: 100px;
         background-size: cover;
         padding-bottom: 80px;
-        background-image: url('images_tablet/annie-spratt-135307-unsplash@2x.png');
+        background-image: url('../images_tablet/annie-spratt-135307-unsplash@2x.png');
     }
     .tablet_make_row {
         display: flex;
@@ -1199,7 +1199,7 @@ input:focus {
     .take_action_today_main {
         flex-direction: row;
         padding: 32px 100px 75px;
-        background-image: url('images_desktop/Did you know background@2x.png');
+        background-image: url('../images_desktop/Did you know background@2x.png');
     }
     .take_action_whiteboard {
         padding: 0 64px;
@@ -1235,7 +1235,7 @@ input:focus {
     .stories_back {
         width: 180%;
         height: 468px;
-        background-image: url('images_desktop/lady-baby@2x.png');
+        background-image: url('../images_desktop/lady-baby@2x.png');
         background-size: cover;
     }
     .stories_para {
@@ -1462,13 +1462,13 @@ input:focus {
 
 @media all and (min-width:1280px) {
     .background_img_1 {
-        background-image: url('images_desktop/annie-spratt-135307-unsplash@2x.png');
+        background-image: url('../images_desktop/annie-spratt-135307-unsplash@2x.png');
     }
     .what_we_do_image {
-        background-image: url('images_desktop/tree-planting-1@2x.png');
+        background-image: url('../images_desktop/tree-planting-1@2x.png');
     }
     .take_action_today_main {
-        background-image: url('images_desktop/Did you know background@2x.png');
+        background-image: url('../images_desktop/Did you know background@2x.png');
         padding-bottom: 250px;
     }
     .take_action_whiteboard {

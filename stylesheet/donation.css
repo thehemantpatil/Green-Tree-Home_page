@@ -25,7 +25,7 @@ header {
 }
 
 .image_class {
-    background-image: url('images_mob/annie-spratt/annie-spratt-427340-unsplash-\(1\).png');
+    background-image: url('../images_mob/annie-spratt/annie-spratt-427340-unsplash-\(1\).png');
     background-repeat: no-repeat;
     background-size: cover;
     font-family: Flood Std;
@@ -231,7 +231,7 @@ input:focus {
         padding-bottom: 20px;
     }
     .image_class {
-        background-image: url('images_desktop/annie-spratt/annie-spratt-427340-unsplash-(1).png');
+        background-image: url('../images_desktop/annie-spratt/annie-spratt-427340-unsplash-(1).png');
         background-repeat: no-repeat;
         padding-top: 128px;
         padding-bottom: 128px;
