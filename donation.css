@@ -1,11 +1,10 @@
 @import url("https://p.typekit.net/p.css?s=1&k=wvl2kgf&ht=tk&f=18085&a=84797321&app=typekit&e=css");
-
 @font-face {
-  font-family: "flood-std";
-  src: url("https://use.typekit.net/af/6da923/000000000000000000012fc3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/6da923/000000000000000000012fc3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/6da923/000000000000000000012fc3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
-  font-display: auto;
-  font-style: normal;
-  font-weight: 400;
+    font-family: "flood-std";
+    src: url("https://use.typekit.net/af/6da923/000000000000000000012fc3/27/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff2"), url("https://use.typekit.net/af/6da923/000000000000000000012fc3/27/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("woff"), url("https://use.typekit.net/af/6da923/000000000000000000012fc3/27/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n4&v=3") format("opentype");
+    font-display: auto;
+    font-style: normal;
+    font-weight: 400;
 }
 
 body {
@@ -55,6 +54,70 @@ header {
     font-size: 11px;
 }
 
+.form_heading {
+    font-size: 22px;
+    margin: 32px 32px 0px 32px;
+}
+
+.form_content {
+    padding: 20px 32px;
+}
+
+.basic_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.street_address {
+    margin-top: 22px;
+}
+
+.street_address #street_inp {
+    width: 100%;
+}
+
+.city_info {
+    display: flex;
+    margin-top: 22px;
+}
+
+.email_info {
+    margin-top: 22px;
+}
+
+.email_info #email_inp {
+    width: 100%;
+}
+
+.payment_info {
+    margin-top: 50px;
+}
+
+.payment_info span {
+    font-size: 20px;
+}
+
+.credit_card_info {
+    margin-top: 22px;
+}
+
+.credit_card_info #credit_card_number {
+    width: 100%;
+}
+
+.credit_card_extra_info {
+    display: flex;
+    margin-top: 22px;
+}
+
+.credit_card_extra_info div input {
+    width: 30%;
+}
+
+.credit_card_extra_info #YYYY {
+    margin-left: 10px;
+}
+
 .formdiv input {
     border: none;
     border-bottom: 2px solid white;
@@ -69,7 +132,7 @@ header {
     font-size: 1em;
 }
 
-.don_note {
+.donation_note {
     margin-top: 50px;
     font-size: 18px;
 }
@@ -90,6 +153,11 @@ hr {
     visibility: hidden;
 }
 
+.name_col p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
 .footer {
     margin-top: 50px;
     width: 80%;
@@ -104,16 +172,46 @@ hr {
     padding-bottom: 52px;
 }
 
-.undr {
+.under {
     text-decoration: underline;
+    font-size: 14px;
+    font-weight: normal;
+    letter-spacing: -0.14;
 }
 
 .slogan {
     grid-column: 2/3;
+    font-family: 'flood-std';
+    color: #354463;
+    font-size: 34px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 input:focus {
     color: white
+}
+
+.back_btn {
+    font-size: 14px;
+    margin: 25px 0 10px 0;
+    font-family: Helvetica;
+}
+
+.back_btn a {
+    color: #C1F7D5;
+}
+
+.contact p,
+.follow p,
+.Learn p {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+.hori {
+    width: 60%;
+    margin-left: 0;
 }
 
 @media all and (max-width:1024px) and (min-width:640px) {
@@ -139,13 +237,12 @@ input:focus {
     .image_class {
         background-image: url('images_desktop/annie-spratt/annie-spratt-427340-unsplash-\(1\).png');
         background-repeat: no-repeat;
-        padding-top:128px;
-        padding-bottom:128px;
+        padding-top: 128px;
+        padding-bottom: 128px;
         background-size: cover;
     }
     header {
         font-size: 28px;
-
     }
     .image_class {
         align-items: flex-start;
@@ -169,6 +266,9 @@ input:focus {
     }
     .formdiv {
         margin-left: 10%;
+    }
+    .security_code {
+        width: 100%;
     }
     .footer {
         display: grid;

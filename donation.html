@@ -2,32 +2,32 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="donation.css">
-    <title>Donation</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="donation.css">
+  <title>Donation</title>
 </head>
 
 <body>
-    <div class="parent_div">
-        <div class="head">
-            <header>
-                <b>The Green</b>
-                <br>
-                <b>Trees Initiative<b>
+  <div class="parent_div">
+    <div class="head">
+      <header>
+        <b>The Green</b>
+        <br>
+        <b>Trees Initiative<b>
       </header>
       <div class="image_class">
-        <div class="slog" style="text-align: center;">
+        <div class="slog">
           <i><span>GIVE HOPE TO THOSE</span>
             <br>
             <span>WHO NEED IT MOST</span></i>
         </div>
         <div class="formdiv">
-          <div style="font-size: 22px;margin: 32px 32px 0px 32px;">Your Information</div>
+          <div class="form_heading">Your Information</div>
           <form>
-            <div style="padding:20px 32px;">
-              <div style="display: flex; justify-content: space-between;">
+            <div class="form_content">
+              <div class="basic_info">
                 <div>
                   <label for="fname">FIRST NAME</label>
                   <br>
@@ -40,13 +40,13 @@
                 </div>
               </div>
 
-              <div style="margin-top: 22px;">
+              <div class="street_address">
                 <label for="address">STREET ADDRESS</label>
                 <br>
-                <input style="width: 100%;" type="text" placeholder="Street address">
+                <input id='street_inp' type="text" placeholder="Street address">
               </div>
 
-              <div style="display: flex;margin-top: 22px;">
+              <div class="city_info">
                 <div>
                   <label for="city">CITY</label>
                   <br>
@@ -64,35 +64,35 @@
                 </div>
               </div>
 
-              <div style="margin-top: 22px;">
+              <div class="email_info">
                 <label for="Email">EMAIL ADDRESS</label>
                 <br>
-                <input style="width: 100%;" type="email" placeholder="Email address">
+                <input id='email_inp' type="email" placeholder="Email address">
               </div>
-              <div style="margin-top: 50px;">
-                <span style="font-size: 20px">Payment Information</span>
+              <div class="payment_info">
+                <span>Payment Information</span>
               </div>
               <div>
-                <div style="margin-top: 22px;">
+                <div class="credit_card_info">
                   <label for="Email">CREDIT CARD NUMBER</label>
                   <br>
-                  <input style="width: 100%;" type="email" placeholder="Credit card number">
+                  <input id="credit_card_number" type="number" placeholder="Credit card number">
                 </div>
-                <div style="display: flex;margin-top: 22px;">
+                <div class="credit_card_extra_info">
                   <div>
                     <label for="city">EXPIRATION DATE</label>
                     <br>
-                    <input style="width: 30%;" type="text" placeholder="MM">
-                    <input style="width: 30%;margin-left: 10px;" type="text" placeholder="YYYY">
+                    <input id="" type="text" placeholder="MM">
+                    <input id="YYYY" type="text" placeholder="YYYY">
                   </div>
 
-                  <div style="width:100%">
+                  <div class="security_code">
                     <label for="cvv">SECURITY CODE</label>
                     <br>
                     <input type="text" placeholder="CVC">
                   </div>
                 </div>
-                <div class="don_note">
+                <div class="donation_note">
                   <p>Click the button to confirm your
                     donation of $10, recurring monthly.</p>
                 </div>
@@ -103,9 +103,8 @@
                   <div class="sub_btn">
                     <input type="submit" value="Process Payment">
                   </div>
-                  <div style="font-size: 14px;margin: 25px 0 10px 0;
-                                font-family: Helvetica;">
-                    <a href="#" style="color: #C1F7D5;">Go back</a>
+                  <div class="back_btn">
+                    <a href="#">Go back</a>
                   </div>
                 </div>
               </div>
@@ -119,7 +118,7 @@
       <div class="footer">
         <!-- 1st -->
         <div class="name_col">
-          <p style="font-size: 18px; margin-top: 20px;">
+          <p>
             The Green<br>
             Trees<br>
             Initiative<br>
@@ -128,15 +127,12 @@
 
         <!-- 2nd -->
         <div class="contact">
-          <p style="font-size: 11px;
-                          font-weight: normal;">
+          <p>
             <br>
             CONTACT US
-            <hr class="hori" style="width: 60%;margin-left: 0;">
+            <hr class="hori">
 
-            <span class="undr" style="font-size: 14px;
-                    font-weight: normal;
-                    letter-spacing: -0.14;"> 123 Anywhere St. <br>
+            <span class="under"> 123 Anywhere St. <br>
               Cityname, NY 11206 <br>
               (123) 456-7890 <br>
               contact@npo.org <span>
@@ -145,16 +141,13 @@
 
         <!-- 3rd -->
         <div class="follow">
-          <p style="font-size: 11px; font-weight: normal;">
+          <p>
             <br>
             FOLLOW US
-            <hr class="hori" style="width: 60%;margin-left: 0;">
+            <hr class="hori">
 
 
-            <span class="undr" style="font-size: 14x; 
-                       font-weight: normal;
-                       font-family: Helvetica;
-                       ">
+            <span class="under">
               Facebook <br>
               Twitter <br>
               Instagram <br>
@@ -165,14 +158,12 @@
 
         <!-- 4th -->
         <div class="Learn">
-          <p style="font-size: 11px; font-weight: normal;">
+          <p>
             <br>
             LEARN MORE
-            <hr class="hori" style="width: 60%;margin-left: 0;">
+            <hr class="hori">
 
-            <span class="undr" style="font-size: 14x; 
-                       font-weight: normal;
-                       ">
+            <span class="under">
 
               The issue <br>
               How we help <br>
@@ -183,13 +174,7 @@
         </div>
 
         <!-- 5th -->
-        <div class="slogan" style="
-                  font-family: Flood Std;
-                  color: #354463;
-                  font-size: 34px;
-                  margin-top: 20px;
-
-                  ">
+        <div class="slogan">
           <i> #STOP <br>
             CLIMATE <br>
             CHANGE </i>

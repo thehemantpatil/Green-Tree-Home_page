@@ -11,7 +11,7 @@ body {
     margin: 0;
 }
 
-.btn_row a {
+.donation_btn_row a {
     text-decoration: none;
     color: #354463;
 }
@@ -22,7 +22,7 @@ body {
     padding: 32px;
 }
 
-.first_row {
+.header_row {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,7 +43,7 @@ body {
     font-family: Helvetica;
 }
 
-.btn_row {
+.donation_btn_row {
     padding: 8px;
     background-color: #C1F7D5;
     color: #354463;
@@ -55,7 +55,7 @@ body {
     font-size: 18px;
 }
 
-.img_1 {
+.background_img_1 {
     background-image: url('images_mob/annie-spratt-135307-unsplash@2x.png');
     background-color: #354463;
     padding: 32px;
@@ -67,7 +67,7 @@ body {
     position: relative;
 }
 
-.slog {
+.first_hashtag {
     font-family: 'flood-std';
     font-size: 44px;
     color: #FFFFFF;
@@ -127,7 +127,7 @@ body {
     text-decoration: underline;
 }
 
-.third_sec {
+.action_section {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -137,12 +137,12 @@ body {
     grid-gap: 17px;
 }
 
-.third_sec span {
+.action_section span {
     color: #354463;
     font: normal normal bold 18px/22px Helvetica;
 }
 
-.third_sec p {
+.action_section p {
     text-align: left;
     font: normal normal 300 14px/20px Helvetica;
     letter-spacing: -0.14px;
@@ -158,20 +158,20 @@ body {
     padding: 43px 0px;
 }
 
-.wwd_heading {
+.what_we_do_heading {
     width: 160px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     text-align: center;
     padding: 13px 0;
 }
 
-.wwd_heading span {
+.what_we_do_heading span {
     font: normal normal normal 14px/17px Helvetica;
     letter-spacing: 0.56px;
     color: #354463;
 }
 
-.wwd_desc {
+.what_we_do_desc {
     text-align: center;
     font: normal normal bold 18px/26px Helvetica;
     letter-spacing: 0px;
@@ -179,7 +179,7 @@ body {
     padding: 0 38px;
 }
 
-.wwd_whiteboard {
+.what_we_do_whiteboard {
     background-color: white;
     margin: 0 32px;
     margin-top: 70px;
@@ -187,7 +187,7 @@ body {
     flex-direction: column;
 }
 
-.wwd_image {
+.what_we_do_image {
     background-image: url('images_mob/tree-planting-1@2x.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -197,27 +197,27 @@ body {
     background-color: #354463;
 }
 
-.wwd_image_1 {
+.what_we_do_image_1 {
     background-image: url('images_mob/advocacy@2x.png');
 }
 
-.wwd_image_2 {
+.what_we_do_image_2 {
     background-image: url('images_mob/education-training@2x.png');
 }
 
-.wwd_imghead {
+.what_we_do_imghead {
     padding: 20% 8% 28px;
     text-align: center;
 }
 
-.wwd_imghead span {
+.what_we_do_imghead span {
     text-align: center;
     font: normal normal bold 18px/22px Helvetica;
     letter-spacing: 0px;
     color: #354463;
 }
 
-.wwd_imgdesc {
+.what_we_do_imgdesc {
     text-align: center;
     font: normal normal 300 14px/20px Helvetica;
     letter-spacing: -0.14px;
@@ -226,7 +226,7 @@ body {
     padding-top: 22px;
 }
 
-.wwd_btn {
+.what_we_do_btn {
     background: #C1F7D5;
     border-radius: 100px;
     opacity: 1;
@@ -235,7 +235,7 @@ body {
     margin-bottom: 20px;
 }
 
-.wwd_btn span {
+.what_we_do_btn span {
     font: normal normal bold 16px/20px Helvetica;
     color: #354463;
 }
@@ -250,7 +250,7 @@ body {
     padding: 64px 32px 32px 32px;
 }
 
-.tatm_heading {
+.take_action_heading {
     text-align: left;
     font-size: 32px;
     font-family: 'flood-std';
@@ -258,7 +258,7 @@ body {
     width: 60%;
 }
 
-.tatm_btn {
+.take_action_btn {
     background: #C1F7D5 0% 0% no-repeat padding-box;
     border-radius: 100px;
     opacity: 1;
@@ -269,7 +269,7 @@ body {
     color: #354463;
 }
 
-.tatm_whiteboard {
+.take_action_whiteboard {
     background-color: white;
     padding: 0 30px;
     margin-top: 60px;
@@ -278,7 +278,7 @@ body {
     padding-bottom: 15px;
 }
 
-.tatm_whiteboard_upper {
+.take_action_whiteboard_upper {
     background: #354463 0% 0% no-repeat padding-box;
     opacity: 1;
     font: normal normal normal 14px/17px Helvetica;
@@ -289,21 +289,25 @@ body {
     padding: 15px 15px;
 }
 
-.tatm_whiteboard_left {
+.take_action_whiteboard_left {
     padding-top: 20px;
 }
 
-.tatm_whiteboard_left span {
+.take_action_whiteboard_left span {
     text-align: left;
     font: normal normal bold 22px/28px Helvetica;
     color: #354463;
 }
 
-.tatm_whiteboard_left p {
+.take_action_whiteboard_left p {
     color: #354463;
     font-size: 16px;
     font-family: Helvetica;
     margin-top: 10px;
+}
+
+.take_action_whiteboard_right_sec {
+    display: flex;
 }
 
 .twitter,
@@ -313,6 +317,10 @@ body {
     height: 32px;
     border-radius: 40px;
     margin-left: 10px;
+    margin-top: 20px;
+}
+
+.fb {
     margin-top: 20px;
 }
 
@@ -421,6 +429,7 @@ img {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-top: 40px;
 }
 
 .extra_pad {
@@ -566,13 +575,18 @@ hr {
     padding-bottom: 52px;
 }
 
-.undr {
+.under {
     text-decoration: underline;
+    font-size: 14x;
+    font-weight: normal;
 }
 
 .slogan {
     grid-column: 2/3;
     font-family: 'flood-std';
+    color: #354463;
+    font-size: 34px;
+    margin-top: 20px;
 }
 
 input:focus {
@@ -580,7 +594,7 @@ input:focus {
 }
 
 @media all and (max-width: 1024px) and (min-width: 722px) {
-    .img_1 {
+    .background_img_1 {
         background-image: url('images_tablet/annie-spratt-135307-unsplash@2x.png');
     }
 }
@@ -601,7 +615,7 @@ input:focus {
         color: #354463;
         line-height: 29px;
     }
-    .first_row {
+    .header_row {
         justify-content: space-between;
         align-items: flex-start;
         flex-direction: column;
@@ -615,11 +629,11 @@ input:focus {
         margin-bottom: 10px;
         padding-right: 25px;
     }
-    .btn_div {
+    .donation_btn_div {
         justify-content: center;
         align-self: center;
     }
-    .btn_row {
+    .donation_btn_row {
         background-color: #C1F7D5;
         color: #354463;
         border: 1px solid white;
@@ -631,18 +645,19 @@ input:focus {
         padding: 15px;
         margin-bottom: 10px;
     }
-    .img_1 {
+    .background_img_1 {
         padding: 64px;
         padding-bottom: 80px;
         background-size: cover;
     }
-    .third_sec {
+    .action_section {
         padding: 64px;
         padding-top: 80px;
     }
     .whiteboard {
         padding: 0px 64px 44px 64px;
         margin-top: 90px;
+        width: 50%;
     }
     .para_slogan {
         font: normal normal bold 36px/46px Helvetica;
@@ -650,7 +665,7 @@ input:focus {
         text-align: left;
         margin-top: 0px;
     }
-    .slog {
+    .first_hashtag {
         font: normal normal normal 44px/46px 'flood-std';
     }
     .issue {
@@ -670,40 +685,40 @@ input:focus {
     .take_action {
         align-self: center;
     }
-    .wwd_heading {
+    .what_we_do_heading {
         align-self: flex-start;
         margin-left: 64px;
     }
-    .wwd_desc {
+    .what_we_do_desc {
         text-align: left;
         font: normal normal bold 32px/40px Helvetica;
         letter-spacing: 0px;
         color: #FFFFFF;
         padding: 0 64px;
     }
-    .wwd_whiteboard {
+    .what_we_do_whiteboard {
         display: flex;
         flex-direction: column;
         margin: 70px 64px;
         padding-bottom: 60px;
         position: relative;
     }
-    .wwd_row_class {
+    .what_we_do_row_class {
         display: flex;
         flex-direction: row;
     }
-    .wwd_image {
+    .what_we_do_image {
         width: 0px;
         height: 0px;
         padding: 90px 150px;
         background-color: #354463;
     }
-    .wwd_imghead {
+    .what_we_do_imghead {
         padding: 4% 0px 28px;
         text-align: left;
         width: 30%;
     }
-    .wwd_imgdesc {
+    .what_we_do_imgdesc {
         text-align: left;
         font: normal normal 300 14px/20px Helvetica;
         letter-spacing: -0.14px;
@@ -711,7 +726,7 @@ input:focus {
         opacity: 1;
         padding-top: 22px;
     }
-    .wwd_btn {
+    .what_we_do_btn {
         background: #C1F7D5;
         border-radius: 100px;
         opacity: 1;
@@ -728,7 +743,7 @@ input:focus {
         background-image: url('images_tablet/Did\ you\ know\ background@2x.png');
         background-size: cover;
     }
-    .tatm_whiteboard {
+    .take_action_whiteboard {
         width: 250px;
         height: 152px;
     }
@@ -737,12 +752,12 @@ input:focus {
         flex-direction: column;
         margin-top: 64px;
     }
-    .tatm_heading {
+    .take_action_heading {
         font-size: 42px;
         width: 30%;
         margin-top: -350px;
     }
-    .tatm_btn {
+    .take_action_btn {
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -752,7 +767,7 @@ input:focus {
         width: 152px;
         color: #354463;
     }
-    .tatm_whiteboard_upper {
+    .take_action_whiteboard_upper {
         align-self: flex-start;
     }
     .stories {
@@ -975,6 +990,23 @@ input:focus {
     }
 }
 
+.follow p,
+.contact p {
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+}
+
+.hori {
+    width: 60%;
+    margin-left: 0;
+}
+
+.name_col p {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
 @media all and (min-width:1025px) {
     .header_div {
         flex-direction: row;
@@ -988,7 +1020,7 @@ input:focus {
         color: #354463;
         line-height: 29px;
     }
-    .first_row {
+    .header_row {
         justify-content: space-between;
         align-items: flex-start;
         flex-direction: row;
@@ -1002,11 +1034,11 @@ input:focus {
     .info p {
         padding-right: 25px;
     }
-    .btn_div {
+    .donation_btn_div {
         justify-content: center;
         align-self: center;
     }
-    .btn_row {
+    .donation_btn_row {
         background-color: #C1F7D5;
         color: #354463;
         border: 1px solid white;
@@ -1018,11 +1050,11 @@ input:focus {
         padding: 15px;
         margin-bottom: 10px;
     }
-    .slog {
+    .first_hashtag {
         margin-right: 35%;
         margin-top: 4%;
     }
-    .third_sec {
+    .action_section {
         padding-left: 100px;
         padding-top: 80px;
         padding-bottom: 60px;
@@ -1030,14 +1062,14 @@ input:focus {
         grid-template-rows: 1fr;
         grid-gap: 0;
     }
-    .third_sec span {
+    .action_section span {
         text-align: left;
         font: normal normal bold 28px/36px Helvetica;
         letter-spacing: 0px;
         color: #354463;
         opacity: 1;
     }
-    .third_sec p {
+    .action_section p {
         text-align: left;
         font: normal normal 300 16px/24px Helvetica;
         letter-spacing: -0.16px;
@@ -1045,7 +1077,7 @@ input:focus {
         opacity: 1;
         width: 80%;
     }
-    .img_1 {
+    .background_img_1 {
         padding-top: 128px;
         padding-left: 100px;
         padding-right: 100px;
@@ -1053,29 +1085,31 @@ input:focus {
         padding-bottom: 80px;
         background-image: url('images_tablet/annie-spratt-135307-unsplash@2x.png');
     }
-    .make_row {
+    .tablet_make_row {
         display: flex;
         flex-direction: row-reverse;
         width: 100%;
     }
-    .slog {
+    .first_hashtag {
         margin-top: 0px;
         font-size: 44px/56px;
     }
-    .tit {
+    .hash {
         padding-left: 40%;
     }
     .para_slogan {
-        font: normal normal bold 34px/44px Helvetica;
+        font: normal normal bold 40px/54px Helvetica;
         margin-top: 0px;
         width: 100%;
     }
     .whiteboard {
         width: 50%;
         padding: 64px;
-        padding-bottom: 40px;
+        padding-bottom: 60px;
         padding-top: 40px;
         margin-top: 0px;
+        margin-bottom: 50px;
+        align-self: center;
     }
     .hide_it {
         visibility: visible;
@@ -1083,7 +1117,7 @@ input:focus {
         font-family: Helvetica;
         font-size: 14px;
     }
-    .link_title {
+    .link_hashle {
         background-image: none;
         margin-top: 0px;
         padding-bottom: 10px;
@@ -1109,22 +1143,22 @@ input:focus {
     .take_action {
         align-self: center;
     }
-    .wwd_all {
+    .what_we_do_all {
         display: flex;
         margin: 0px 100px;
     }
-    .wwd_heading {
+    .what_we_do_heading {
         align-self: flex-start;
         margin-left: 100px;
     }
-    .wwd_desc {
+    .what_we_do_desc {
         text-align: left;
         font: normal normal bold 28px/36px Helvetica;
         letter-spacing: 0px;
         color: #FFFFFF;
         padding: 0 100px;
     }
-    .wwd_whiteboard {
+    .what_we_do_whiteboard {
         display: flex;
         flex-direction: column;
         margin: 70px 20px;
@@ -1133,14 +1167,14 @@ input:focus {
         height: 450px;
         margin-bottom: 50px;
     }
-    .wwd_image {
+    .what_we_do_image {
         width: 300px;
         height: 0px;
         padding: 90px 0;
         background-color: #354463;
         margin-left: 20px;
     }
-    .wwd_imghead {
+    .what_we_do_imghead {
         padding: 20% 20px 28px;
         text-align: left;
         font: normal normal bold 28px/20px Helvetica;
@@ -1148,7 +1182,7 @@ input:focus {
         color: #354463;
         width: 50%;
     }
-    .wwd_imgdesc {
+    .what_we_do_imgdesc {
         text-align: left;
         font: normal normal 300 16px/24px Helvetica;
         letter-spacing: -0.16px;
@@ -1157,7 +1191,7 @@ input:focus {
         padding-top: 22px;
         width: 160%;
     }
-    .wwd_btn {
+    .what_we_do_btn {
         background: #C1F7D5;
         border-radius: 100px;
         opacity: 1;
@@ -1171,15 +1205,15 @@ input:focus {
         padding: 32px 100px 75px;
         background-image: url('images_desktop/Did\ you\ know\ background@2x.png');
     }
-    .tatm_whiteboard {
+    .take_action_whiteboard {
         padding: 0 64px;
         height: 150px;
     }
-    .tatm_heading {
+    .take_action_heading {
         font-size: 54px;
         margin-top: -350px;
     }
-    .tatm_btn {
+    .take_action_btn {
         background: #C1F7D5 0% 0% no-repeat padding-box;
         border-radius: 100px;
         opacity: 1;
@@ -1189,7 +1223,7 @@ input:focus {
         width: 152px;
         color: #354463;
     }
-    .tatm_whiteboard_upper {
+    .take_action_whiteboard_upper {
         align-self: flex-start;
     }
     .all_wb {
@@ -1427,5 +1461,21 @@ input:focus {
     }
     hr {
         visibility: visible;
+    }
+}
+
+@media all and (min-width:1280px) {
+    .background_img_1 {
+        background-image: url('images_desktop/annie-spratt-135307-unsplash@2x.png');
+    }
+    .what_we_do_image {
+        background-image: url('images_desktop/tree-planting-1@2x.png');
+    }
+    .take_action_today_main {
+        background-image: url('images_desktop/Did\ you\ know\ background@2x.png');
+        padding-bottom: 250px;
+    }
+    .take_action_whiteboard {
+        height: 200px;
     }
 }
